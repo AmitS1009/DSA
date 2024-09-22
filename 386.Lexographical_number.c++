@@ -2,6 +2,7 @@ class Solution {
 public:
     void solve(int curr, int n, vector<int> &result) {
         if (curr > n) return; 
+        
         result.push_back(curr); 
 
         for (int append = 0; append <= 9; append++) {
